@@ -14,9 +14,7 @@ The instructions below will walk you through the process of ideation and plannin
 
 # Known Bugs
     There are no known bugs
-    
-    
-
+   
 # Technologies used
 
     Javascript
