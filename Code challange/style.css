@@ -1,0 +1,26 @@
+
+button#buyTicketButton[disabled] {
+    background-color: gray;
+    cursor: not-allowed;
+}
+.movie-details {
+    float: left;
+    margin-right: 20px;
+}
+/* changed the cusort to a pointer so that the list can appear clickable */
+#films{
+cursor: pointer;
+
+}
+/* Changed ul color to blue to mimic links  in a webpage */
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    line-height: 50px;
+    color: blue;
+  }
+/* ul:visited{
+    color: black;
+} */
+/* ul:visted failed to function as a expected */
+  
