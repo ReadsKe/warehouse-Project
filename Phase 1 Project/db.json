@@ -1,26 +1,35 @@
 {
-    "warehouses": [
-      {
-        "id": "1",
-        "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a faucibus enim. Morbi nisi libero, viverra ut aliquam quis, molestie in libero. Cras magna ipsum, pellentesque non auctor et, molestie a ipsum. Nullam eget maximus turpis. Nam lobortis mattis pellentesque. Etiam egestas massa dui, a interdum elit fringilla aliquet. Curabitur eu elit vitae elit consequat vulputate.",
-        "price": 30,
-        "availabilityDate": "10/13/2023",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-      },
-      {
-        "id": "2",
-        "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a faucibus enim. Morbi nisi libero, viverra ut aliquam quis, molestie in libero. Cras magna ipsum, pellentesque non auctor et, molestie a ipsum. Nullam eget maximus turpis. Nam lobortis mattis pellentesque. Etiam egestas massa dui, a interdum elit fringilla aliquet. Curabitur eu elit vitae elit consequat vulputate.",
-        "price": 30,
-        "availabilityDate": "10/13/2023",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-      },
-      {
-        "id": "3",
-        "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a faucibus enim. Morbi nisi libero, viverra ut aliquam quis, molestie in libero. Cras magna ipsum, pellentesque non auctor et, molestie a ipsum. Nullam eget maximus turpis. Nam lobortis mattis pellentesque. Etiam egestas massa dui, a interdum elit fringilla aliquet. Curabitur eu elit vitae elit consequat vulputate.",
-        "price": 30,
-        "availabilityDate": "10/13/2023",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-      }
-  
-    ]
-  }
+  "warehouses": [
+    {
+      "id": "1",
+      "warehouseName": "The 220 Address",
+      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a faucibus enim. Morbi nisi libero, viverra ut aliquam quis, molestie in libero. Cras magna ipsum, pellentesque non auctor et, molestie a ipsum. Nullam eget maximus turpis. Nam lobortis mattis pellentesque. Etiam egestas massa dui, a interdum elit fringilla aliquet. Curabitur eu elit vitae elit consequat vulputate.",
+      "price": 30,
+      "availabilityDate": "10/13/2023",
+      "image": "https://www.newcastlesys.com/hubfs/2022/0406/220406-how-to-keep-your-warehouse-organized.jpeg"
+    },
+    {
+      "id": "2",
+      "warehouseName": "The 221 Address",
+      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a faucibus enim. Morbi nisi libero, viverra ut aliquam quis, molestie in libero. Cras magna ipsum, pellentesque non auctor et, molestie a ipsum. Nullam eget maximus turpis. Nam lobortis mattis pellentesque. Etiam egestas massa dui, a interdum elit fringilla aliquet. Curabitur eu elit vitae elit consequat vulputate.",
+      "price": 30,
+      "availabilityDate": "10/13/2023",
+      "image": "https://cms.ar-racking.com/uploads/2020/06/2023-3.jpg"
+    },
+    {
+      "id": "3",
+      "warehouseName": "The 222 Address",
+      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a faucibus enim. Morbi nisi libero, viverra ut aliquam quis, molestie in libero. Cras magna ipsum, pellentesque non auctor et, molestie a ipsum. Nullam eget maximus turpis. Nam lobortis mattis pellentesque. Etiam egestas massa dui, a interdum elit fringilla aliquet. Curabitur eu elit vitae elit consequat vulputate.",
+      "price": 30,
+      "availabilityDate": "10/13/2023",
+      "image": "https://cms.ar-racking.com/uploads/2021/11/ZONIFICACION-2023.jpg"
+    },
+    {
+      "image": "https://www.americanwarehouses.com/hubfs/AmericanWarehouses_Blog_TheBestApproachToLeasingWarehouseSpace.jpg",
+      "description": "222 Adress Location 2nd avenue",
+      "price": 300,
+      "availabilityDate": "2023-10-19",
+      "id": "gsx59yS"
+    }
+  ]
+}
