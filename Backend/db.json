@@ -1,0 +1,12 @@
+{
+  "warehouses": [
+    {
+      "image": "https://www.americanwarehouses.com/hubfs/AmericanWarehouses_Blog_TheBestApproachToLeasingWarehouseSpace.jpg",
+      "description": "222 Adress Location 2nd avenue",
+      "price": "300",
+      "availabilityDate": "2023-10-16",
+      "id": 1
+    }
+  ],
+  "bookings": []
+}
