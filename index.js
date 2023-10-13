@@ -15,10 +15,13 @@ document.addEventListener('DOMContentLoaded', function () {
                          <p>Description: ${ad.description}</p>
                         <p>Price: $${ad.price}</p>
                         <p>Availability Date: ${ad.availabilityDate}</p>
-                        <button data-id="${ad.id}" class="deleteBtn">Delete Advertisement</button>
+                        <button data-id="${ad.id}" class="BookBtn"> Request more details</button> 
+                        <button data-id="${ad.id}" class="deleteBtn" >Delete Advertisement</button>
                         </div>`
                         console.log(ad)
+                        // Changed the BookBtn to have details Request more details as its functionality is not yet available 
                 })
+                
             })
 
     // Event listener for form submission to add a warehouse advertisement
@@ -33,10 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const warehouseData = {
                 image: image,
                 description: description,
-                price: parseFloat(price),
+                price: price,
                 availabilityDate: availabilityDate,
             };
-        // POST request
         fetch('http://localhost:3000/warehouses', {
             method: 'POST',
             headers: {
@@ -48,9 +50,12 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(() => {
          // Clear the form and refresh the list
             warehouseForm.reset();
-            warehouseList.innerHTML = ''; // Clears the existing list
+            warehouseList.innerHTML = ''; 
             fetchWarehouseAdvertisements();
         });
+
+        alert('Advertisement added successfully.');
+
     })
 
     // Event listener for a delete button
@@ -58,6 +63,8 @@ document.addEventListener('DOMContentLoaded', function () {
         if (e.target.classList.contains('deleteBtn')) {
             const adId = e.target.getAttribute('data-id');
             deleteAdvertisement(adId);
+
+            alert('Advertisement deleted successfully.');
         }
     });
 
@@ -68,11 +75,11 @@ document.addEventListener('DOMContentLoaded', function () {
             method: 'DELETE',
         })
         .then(() => {
-            //  list Refreshes after deleting advertisement
             warehouseList.innerHTML = ''; 
             fetchWarehouseAdvertisements();
         })
     }
+    
 
 
 

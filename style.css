@@ -1,0 +1,7 @@
+.deleteBtn{
+    background-color: orangered;
+    color: white;
+}
+.deleteBtn:visited {
+    background: gray;
+}
