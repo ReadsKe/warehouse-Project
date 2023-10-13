@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const warehouseList = document.getElementById('warehouseList');
 
     // Function to fetch and display warehouse advertisements
-        fetch('http://localhost:3000/warehouses')
+        fetch('https://truckspaceke.onrender.com/warehouses')
             .then(response => response.json())
             .then(data => {
                 const warehouseList = document.getElementById("warehouseList")
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 price: price,
                 availabilityDate: availabilityDate,
             };
-        fetch('http://localhost:3000/warehouses', {
+        fetch('https://truckspaceke.onrender.com/warehouses', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to delete a warehouse advertisement
     function deleteAdvertisement(adId) {
         // Delete Request
-        fetch(`http://localhost:3000/warehouses/${adId}`, {
+        fetch(`https://truckspaceke.onrender.com/warehouses/${adId}`, {
             method: 'DELETE',
         })
         .then(() => {
