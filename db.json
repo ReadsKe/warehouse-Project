@@ -7,6 +7,22 @@
       "price": 600,
       "availabilityDate": "10/13/2023",
       "image": "https://www.newcastlesys.com/hubfs/2022/0406/220406-how-to-keep-your-warehouse-organized.jpeg"
+    },
+    {
+      "id": "2",
+      "warehouseName": "The 221 Address",
+      "description": "Spacious warehouse for rent, offering 5,000 square feet of prime storage space. Located in a secure industrial park with easy access to major highways and transportation hubs. This well-maintained facility features high ceilings, loading docks, and ample parking. Ideal for businesses seeking a versatile and convenient storage solution.",
+      "price": 1200,
+      "availabilityDate": "10/13/2023",
+      "image": "https://cms.ar-racking.com/uploads/2020/06/2023-3.jpg"
+    },
+    {
+      "id": "3",
+      "warehouseName": "The 222 Address",
+      "description": "Spacious warehouse for rent, offering a prime location and versatile storage solutions. This well-maintained facility boasts a variety of available spaces, ideal for your specific needs. With ample square footage, high ceilings, and convenient access, it's the perfect choice for businesses seeking secure and adaptable storage solutions. Don't miss this opportunity to optimize your logistics and inventory management.",
+      "price": 1300,
+      "availabilityDate": "10/13/2023",
+      "image": "https://cms.ar-racking.com/uploads/2021/11/ZONIFICACION-2023.jpg"
     }
   ],
   "bookings": []
